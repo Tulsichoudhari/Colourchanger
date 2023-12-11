@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Color Changer App-2</title>
+	<style>
+	*{font-size:60px;}
+	</style>
+
+	<script>
+	function change()
+	{
+		let colors=["red","orange","green","blue","purple","voilet","maroon","cream","brown","grey","navy blue"]
+		let r=parseInt(Math.random()*colors.length);
+		document.body.style.backgroundColor=colors[r];
+	}
+	</script>
+</head>
+<body>
+<center>
+	<h1>Mohe Rang De -2</h1>
+	<script>
+		change();
+		setInterval(change, 2000);
+	</script>
+</center>
+</body>
+</html>
